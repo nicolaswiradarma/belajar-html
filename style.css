@@ -177,3 +177,59 @@ input {
   background-color: #b10ed5;
   color: rgb(255, 255, 255);
 }
+
+/* Canva home */
+
+#overflowTest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 15rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
+
+#overflowTest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 10rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
+
+.oftest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 15rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+  margin-left: 200rem;
+}
+
+.dhk {
+  background-color: rgb(221, 200, 254);
+}
+
+.hdk {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
