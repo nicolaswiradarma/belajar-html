@@ -9,16 +9,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body class="login">
 
     <div>
         <form>
             <h1>Login</h1> 
-            <div></div>
                 <input type="text" placeholder="Username"
                 required>
                 <i class='bx bxs-user'></i>
-        </div>
         <div>
             <input type="password"
             placeholder="Password" required>
@@ -27,13 +25,13 @@
 
         <div>
             <label><input type="checkbox"> Remember me</label>
-            <a href="#">Forgot password?</a>
+            <a href="#account">Forgot password?</a>
         </div>
 
-        <button type="submit" class="btn">login</button>
+        <button aria-colspan="" type="submit" class="btn">login</button>
 
-        <div>
-            <p>Dont have an account? <a href="C:\Users\marts\Downloads\Belajar HTML\register.html">Register</a></p>
+        <div id="account">
+            <p>Dont have an account? <a href="register.html">Register</a></p>
         </div>
     </form>
 </div>
