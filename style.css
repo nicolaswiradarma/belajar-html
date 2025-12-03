@@ -1,39 +1,235 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* shared styles */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body {
-    display: ;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: wheat;
+html {
+  font-size: 62.5%;
 }
 
-.wrapper {
-    width: 420px;
-    background: red;
-    color: #fff
+@media screen and (max-width: 430px) {
+  html {
+    font-size: 50%;
+  }
 }
 
-.wrapper h1 {
-    font-size: 36px;
-    text-align: center;
+/* specific */
+
+body.register {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+.description {
+  font-size: 50px;
+  color: red;
+  border: 2px solid red;
 }
 
-.wrapper.input-box {
-    width: 100%;
-    height: 50px;
-    background: purple;
-    margin: 30px 0;
+span {
+  display: block;
 }
 
-.input-box input {
-    width: 100%;
-    height: 100;
+.loginHeading {
+  text-align: left;
+}
+
+.loginWrapper {
+  background-color: rgb(255, 255, 255);
+  width: 50rem;
+  border: 2px solid black;
+  border-radius: 11px;
+
+  position: absolute;
+  top: 35rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+
+.heading {
+  margin-bottom: 1.8rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 4px;
+}
+
+input::placeholder {
+  padding-left: 4px;
+}
+
+input {
+  border: 2px solid red;
+}
+
+.btn {
+  margin-bottom: 1000px;
+}
+
+/* canva login */
+
+.canlogin {
+  background-image: url("https://marketplace.canva.com/EAGOrV1qROk/1/0/1600w/canva-video-background-in-cyan-purple-pink-gradient-style-1jH0fnsCulE.jpg");
+  background-color: rgb(0, 213, 255);
+}
+
+.canWrapper {
+  background-color: rgb(255, 255, 255);
+  width: 420px;
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 10px;
+  height: 600px;
+
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 430px) {
+  .canWrapper {
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+  }
+}
+
+.canvahead {
+  margin-left: 20px;
+  margin-top: 2rem;
+}
+
+.janji {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+.ga {
+  text-align: center;
+  color: green;
+  font-size: small;
+  margin-top: 1px;
+}
+
+.or {
+  text-align: center;
+  font-size: small;
+  margin-top: 15px;
+}
+
+.wacc {
+  text-align: center;
+  font-size: medium;
+  margin-top: 30px;
+}
+
+.tos {
+  text-align: justify;
+  font-size: small;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 35px;
+}
+
+.remove {
+  text-align: justify;
+  font-size: small;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+
+.circular {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+
+.block {
+  display: block;
+  width: 350px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(194, 11, 255);
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 15px;
+  transition: all 0.3 ease;
+}
+
+.block:hover {
+  background-color: #b10ed5;
+  color: rgb(255, 255, 255);
+}
+
+/* Canva home */
+
+#overflowTest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 15rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
+
+#overflowTest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 10rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
+
+.oftest {
+  background: #4e514e;
+  color: white;
+  padding: 15px;
+  width: 15rem;
+  height: 40rem;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+  margin-left: 200rem;
+}
+
+.dhk {
+  background-color: rgb(221, 200, 254);
+}
+
+.hdk {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
 }
